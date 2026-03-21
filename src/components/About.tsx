@@ -9,7 +9,7 @@ export const About = () => {
             <div className="image-stack">
               <img src="/hero.png" alt="Our Work" className="main-img" />
               <div className="experience-badge tint-glass">
-                <span className="years">18+</span>
+                <span className="years">15+</span>
                 <span className="text">Years of Experience</span>
               </div>
             </div>
