@@ -56,19 +56,31 @@
   flex-grow: 1;
 }
 
-.service-link {
+.service-link-btn {
   font-weight: 600;
   color: var(--primary);
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: var(--transition);
 }
 
-.service-link::after {
+.service-link-btn::after {
   content: '→';
   transition: var(--transition);
 }
 
-.service-link:hover::after {
-  transform: translateX(5px);
+.service-link-btn:hover {
+  color: var(--secondary);
 }
+
+.service-link-btn:hover::after {
+  transform: translateX(10px);
+}
+
